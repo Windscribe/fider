@@ -3,12 +3,12 @@ package emailmock
 import (
 	"context"
 
-	"github.com/getfider/fider/app"
+	"github.com/Windscribe/fider/app"
 
-	"github.com/getfider/fider/app/models"
-	"github.com/getfider/fider/app/models/cmd"
-	"github.com/getfider/fider/app/models/dto"
-	"github.com/getfider/fider/app/pkg/bus"
+	"github.com/Windscribe/fider/app/models"
+	"github.com/Windscribe/fider/app/models/cmd"
+	"github.com/Windscribe/fider/app/models/dto"
+	"github.com/Windscribe/fider/app/pkg/bus"
 )
 
 var MessageHistory = make([]*HistoryItem, 0)

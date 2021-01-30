@@ -3,14 +3,14 @@ package middlewares
 import (
 	"net/http"
 
-	"github.com/getfider/fider/app/models/enum"
-	"github.com/getfider/fider/app/models/query"
+	"github.com/Windscribe/fider/app/models/enum"
+	"github.com/Windscribe/fider/app/models/query"
 
-	"github.com/getfider/fider/app"
-	"github.com/getfider/fider/app/pkg/bus"
-	"github.com/getfider/fider/app/pkg/env"
-	"github.com/getfider/fider/app/pkg/errors"
-	"github.com/getfider/fider/app/pkg/web"
+	"github.com/Windscribe/fider/app"
+	"github.com/Windscribe/fider/app/pkg/bus"
+	"github.com/Windscribe/fider/app/pkg/env"
+	"github.com/Windscribe/fider/app/pkg/errors"
+	"github.com/Windscribe/fider/app/pkg/web"
 )
 
 // Tenant adds either SingleTenant or MultiTenant to the pipeline

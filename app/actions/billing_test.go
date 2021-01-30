@@ -4,15 +4,15 @@ import (
 	"context"
 	"testing"
 
-	"github.com/getfider/fider/app/services/billing"
+	"github.com/Windscribe/fider/app/services/billing"
 
-	"github.com/getfider/fider/app"
+	"github.com/Windscribe/fider/app"
 
-	"github.com/getfider/fider/app/actions"
-	"github.com/getfider/fider/app/models"
-	"github.com/getfider/fider/app/models/dto"
-	. "github.com/getfider/fider/app/pkg/assert"
-	"github.com/getfider/fider/app/pkg/bus"
+	"github.com/Windscribe/fider/app/actions"
+	"github.com/Windscribe/fider/app/models"
+	"github.com/Windscribe/fider/app/models/dto"
+	. "github.com/Windscribe/fider/app/pkg/assert"
+	"github.com/Windscribe/fider/app/pkg/bus"
 )
 
 func TestCreateEditBillingPaymentInfo_InvalidInput(t *testing.T) {

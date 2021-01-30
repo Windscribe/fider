@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/getfider/fider/app/pkg/web"
+	"github.com/Windscribe/fider/app/pkg/web"
 )
 
 // ClientCache adds Cache-Control header for X seconds

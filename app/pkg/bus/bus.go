@@ -6,8 +6,8 @@ import (
 	"reflect"
 	"sync"
 
-	"github.com/getfider/fider/app/models/cmd"
-	"github.com/getfider/fider/app/pkg/errors"
+	"github.com/Windscribe/fider/app/models/cmd"
+	"github.com/Windscribe/fider/app/pkg/errors"
 )
 
 type HandlerFunc interface{}

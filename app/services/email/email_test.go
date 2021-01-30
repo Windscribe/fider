@@ -3,10 +3,10 @@ package email_test
 import (
 	"testing"
 
-	"github.com/getfider/fider/app/models/dto"
-	"github.com/getfider/fider/app/services/email"
+	"github.com/Windscribe/fider/app/models/dto"
+	"github.com/Windscribe/fider/app/services/email"
 
-	. "github.com/getfider/fider/app/pkg/assert"
+	. "github.com/Windscribe/fider/app/pkg/assert"
 )
 
 func TestRenderMessage(t *testing.T) {

@@ -1,9 +1,9 @@
 package handlers
 
 import (
-	"github.com/getfider/fider/app/models/cmd"
-	"github.com/getfider/fider/app/pkg/bus"
-	"github.com/getfider/fider/app/pkg/web"
+	"github.com/Windscribe/fider/app/models/cmd"
+	"github.com/Windscribe/fider/app/pkg/bus"
+	"github.com/Windscribe/fider/app/pkg/web"
 )
 
 // BlockUser is used to block an existing user from using Fider

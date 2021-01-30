@@ -4,8 +4,8 @@ import (
 	"errors"
 	"testing"
 
-	. "github.com/getfider/fider/app/pkg/assert"
-	"github.com/getfider/fider/app/pkg/validate"
+	. "github.com/Windscribe/fider/app/pkg/assert"
+	"github.com/Windscribe/fider/app/pkg/validate"
 )
 
 func TestResult_Error(t *testing.T) {

@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	. "github.com/getfider/fider/app/pkg/assert"
-	"github.com/getfider/fider/app/pkg/dbx"
+	. "github.com/Windscribe/fider/app/pkg/assert"
+	"github.com/Windscribe/fider/app/pkg/dbx"
 )
 
 func setupMigrationTest(t *testing.T) {

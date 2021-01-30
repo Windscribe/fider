@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/getfider/fider/app/models"
-	"github.com/getfider/fider/app/models/enum"
-	"github.com/getfider/fider/app/pkg/validate"
+	"github.com/Windscribe/fider/app/models"
+	"github.com/Windscribe/fider/app/models/enum"
+	"github.com/Windscribe/fider/app/pkg/validate"
 )
 
 // UpdateUserSettings happens when users updates their settings

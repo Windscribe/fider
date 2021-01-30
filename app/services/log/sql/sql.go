@@ -4,12 +4,12 @@ import (
 	"context"
 	"time"
 
-	"github.com/getfider/fider/app/models/cmd"
-	"github.com/getfider/fider/app/models/dto"
-	"github.com/getfider/fider/app/pkg/bus"
-	"github.com/getfider/fider/app/pkg/dbx"
-	"github.com/getfider/fider/app/pkg/env"
-	"github.com/getfider/fider/app/pkg/log"
+	"github.com/Windscribe/fider/app/models/cmd"
+	"github.com/Windscribe/fider/app/models/dto"
+	"github.com/Windscribe/fider/app/pkg/bus"
+	"github.com/Windscribe/fider/app/pkg/dbx"
+	"github.com/Windscribe/fider/app/pkg/env"
+	"github.com/Windscribe/fider/app/pkg/log"
 )
 
 func init() {

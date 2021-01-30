@@ -1,9 +1,9 @@
 package actions_test
 
 import (
-	. "github.com/getfider/fider/app/pkg/assert"
-	"github.com/getfider/fider/app/pkg/jwt"
-	"github.com/getfider/fider/app/pkg/validate"
+	. "github.com/Windscribe/fider/app/pkg/assert"
+	"github.com/Windscribe/fider/app/pkg/jwt"
+	"github.com/Windscribe/fider/app/pkg/validate"
 )
 
 var jonSnowToken, _ = jwt.Encode(jwt.OAuthClaims{

@@ -3,13 +3,13 @@ package actions
 import (
 	"context"
 
-	"github.com/getfider/fider/app"
-	"github.com/getfider/fider/app/models"
-	"github.com/getfider/fider/app/models/enum"
-	"github.com/getfider/fider/app/models/query"
-	"github.com/getfider/fider/app/pkg/bus"
-	"github.com/getfider/fider/app/pkg/errors"
-	"github.com/getfider/fider/app/pkg/validate"
+	"github.com/Windscribe/fider/app"
+	"github.com/Windscribe/fider/app/models"
+	"github.com/Windscribe/fider/app/models/enum"
+	"github.com/Windscribe/fider/app/models/query"
+	"github.com/Windscribe/fider/app/pkg/bus"
+	"github.com/Windscribe/fider/app/pkg/errors"
+	"github.com/Windscribe/fider/app/pkg/validate"
 )
 
 //CreateUser is the action to create a new user

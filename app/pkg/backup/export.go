@@ -7,9 +7,9 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/getfider/fider/app"
-	"github.com/getfider/fider/app/models"
-	"github.com/getfider/fider/app/pkg/dbx"
+	"github.com/Windscribe/fider/app"
+	"github.com/Windscribe/fider/app/models"
+	"github.com/Windscribe/fider/app/pkg/dbx"
 )
 
 func exportTable(ctx context.Context, tableName string) ([]byte, error) {

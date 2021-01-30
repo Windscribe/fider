@@ -1,6 +1,6 @@
 package query
 
-import "github.com/getfider/fider/app/models"
+import "github.com/Windscribe/fider/app/models"
 
 type GetTagBySlug struct {
 	Slug string

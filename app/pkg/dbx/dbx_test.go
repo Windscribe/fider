@@ -7,9 +7,9 @@ import (
 	"os"
 	"testing"
 
-	. "github.com/getfider/fider/app/pkg/assert"
-	"github.com/getfider/fider/app/pkg/dbx"
-	"github.com/getfider/fider/app/pkg/env"
+	. "github.com/Windscribe/fider/app/pkg/assert"
+	"github.com/Windscribe/fider/app/pkg/dbx"
+	"github.com/Windscribe/fider/app/pkg/env"
 )
 
 type user struct {

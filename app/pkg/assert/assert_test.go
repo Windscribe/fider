@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	. "github.com/getfider/fider/app/pkg/assert"
-	"github.com/getfider/fider/app/pkg/errors"
+	. "github.com/Windscribe/fider/app/pkg/assert"
+	"github.com/Windscribe/fider/app/pkg/errors"
 )
 
 func TestBoolEquals(t *testing.T) {

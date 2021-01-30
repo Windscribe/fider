@@ -4,11 +4,11 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/getfider/fider/app/models"
-	"github.com/getfider/fider/app/pkg/env"
-	"github.com/getfider/fider/app/pkg/errors"
-	"github.com/getfider/fider/app/pkg/jwt"
-	"github.com/getfider/fider/app/pkg/web"
+	"github.com/Windscribe/fider/app/models"
+	"github.com/Windscribe/fider/app/pkg/env"
+	"github.com/Windscribe/fider/app/pkg/errors"
+	"github.com/Windscribe/fider/app/pkg/jwt"
+	"github.com/Windscribe/fider/app/pkg/web"
 )
 
 func encode(user *models.User) string {

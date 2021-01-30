@@ -3,9 +3,9 @@ package models
 import (
 	"time"
 
-	"github.com/getfider/fider/app/models/enum"
-	"github.com/getfider/fider/app/pkg/jwt"
-	"github.com/getfider/fider/app/pkg/rand"
+	"github.com/Windscribe/fider/app/models/enum"
+	"github.com/Windscribe/fider/app/pkg/jwt"
+	"github.com/Windscribe/fider/app/pkg/rand"
 )
 
 //Tenant represents a tenant

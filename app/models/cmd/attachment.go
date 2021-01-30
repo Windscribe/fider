@@ -1,6 +1,6 @@
 package cmd
 
-import "github.com/getfider/fider/app/models"
+import "github.com/Windscribe/fider/app/models"
 
 type SetAttachments struct {
 	Post        *models.Post

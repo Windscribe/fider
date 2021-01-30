@@ -15,17 +15,17 @@ import (
 	"github.com/aws/aws-sdk-go/aws/credentials"
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/s3"
-	"github.com/getfider/fider/app"
+	"github.com/Windscribe/fider/app"
 
-	"github.com/getfider/fider/app/models"
-	"github.com/getfider/fider/app/models/cmd"
-	"github.com/getfider/fider/app/models/dto"
-	"github.com/getfider/fider/app/models/query"
-	"github.com/getfider/fider/app/pkg/env"
-	"github.com/getfider/fider/app/pkg/errors"
-	"github.com/getfider/fider/app/services/blob"
+	"github.com/Windscribe/fider/app/models"
+	"github.com/Windscribe/fider/app/models/cmd"
+	"github.com/Windscribe/fider/app/models/dto"
+	"github.com/Windscribe/fider/app/models/query"
+	"github.com/Windscribe/fider/app/pkg/env"
+	"github.com/Windscribe/fider/app/pkg/errors"
+	"github.com/Windscribe/fider/app/services/blob"
 
-	"github.com/getfider/fider/app/pkg/bus"
+	"github.com/Windscribe/fider/app/pkg/bus"
 )
 
 //DefaultClient is an S3 Client

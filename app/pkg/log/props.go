@@ -3,8 +3,8 @@ package log
 import (
 	"context"
 
-	"github.com/getfider/fider/app"
-	"github.com/getfider/fider/app/models/dto"
+	"github.com/Windscribe/fider/app"
+	"github.com/Windscribe/fider/app/models/dto"
 )
 
 const (

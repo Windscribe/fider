@@ -1,9 +1,9 @@
 package handlers
 
 import (
-	"github.com/getfider/fider/app/models/query"
-	"github.com/getfider/fider/app/pkg/bus"
-	"github.com/getfider/fider/app/pkg/web"
+	"github.com/Windscribe/fider/app/models/query"
+	"github.com/Windscribe/fider/app/pkg/bus"
+	"github.com/Windscribe/fider/app/pkg/web"
 )
 
 // ManageTags is the home page for managing tags

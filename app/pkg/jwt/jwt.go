@@ -5,8 +5,8 @@ import (
 
 	"github.com/dgrijalva/jwt-go"
 	jwtgo "github.com/dgrijalva/jwt-go"
-	"github.com/getfider/fider/app/pkg/env"
-	"github.com/getfider/fider/app/pkg/errors"
+	"github.com/Windscribe/fider/app/pkg/env"
+	"github.com/Windscribe/fider/app/pkg/errors"
 )
 
 var jwtSecret = env.Config.JWTSecret

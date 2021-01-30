@@ -1,8 +1,8 @@
 package cmd
 
 import (
-	"github.com/getfider/fider/app/models"
-	"github.com/getfider/fider/app/models/enum"
+	"github.com/Windscribe/fider/app/models"
+	"github.com/Windscribe/fider/app/models/enum"
 )
 
 type AddNewPost struct {

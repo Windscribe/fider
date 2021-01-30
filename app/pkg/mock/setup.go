@@ -1,10 +1,10 @@
 package mock
 
 import (
-	"github.com/getfider/fider/app"
-	"github.com/getfider/fider/app/models"
-	"github.com/getfider/fider/app/models/enum"
-	"github.com/getfider/fider/app/pkg/env"
+	"github.com/Windscribe/fider/app"
+	"github.com/Windscribe/fider/app/models"
+	"github.com/Windscribe/fider/app/models/enum"
+	"github.com/Windscribe/fider/app/pkg/env"
 )
 
 // DemoTenant is a mocked tenant

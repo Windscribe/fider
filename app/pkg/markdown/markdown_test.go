@@ -4,8 +4,8 @@ import (
 	"html/template"
 	"testing"
 
-	. "github.com/getfider/fider/app/pkg/assert"
-	"github.com/getfider/fider/app/pkg/markdown"
+	. "github.com/Windscribe/fider/app/pkg/assert"
+	"github.com/Windscribe/fider/app/pkg/markdown"
 )
 
 func TestFullMarkdown(t *testing.T) {

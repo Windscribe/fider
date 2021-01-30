@@ -3,9 +3,9 @@ package errors_test
 import (
 	"testing"
 
-	"github.com/getfider/fider/app/pkg/errors"
+	"github.com/Windscribe/fider/app/pkg/errors"
 
-	. "github.com/getfider/fider/app/pkg/assert"
+	. "github.com/Windscribe/fider/app/pkg/assert"
 )
 
 func TestNewError(t *testing.T) {
@@ -87,9 +87,9 @@ func TestPanicked(t *testing.T) {
 			Expect(err.Error()).ContainsSubstring(`
 runtime/debug.Stack`)
 			Expect(err.Error()).ContainsSubstring(`
-github.com/getfider/fider/app/pkg/errors.Panicked`)
+github.com/Windscribe/fider/app/pkg/errors.Panicked`)
 			Expect(err.Error()).ContainsSubstring(`
-- github.com/getfider/fider/app/pkg/errors_test.TestPanicked:84 (app/pkg/errors/errors.go:39)
+- github.com/Windscribe/fider/app/pkg/errors_test.TestPanicked:84 (app/pkg/errors/errors.go:39)
 - Boom!`)
 		}
 	}()

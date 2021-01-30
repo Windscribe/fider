@@ -4,10 +4,10 @@ import (
 	"context"
 	"net/url"
 
-	"github.com/getfider/fider/app"
-	"github.com/getfider/fider/app/models"
-	"github.com/getfider/fider/app/pkg/web"
-	"github.com/getfider/fider/app/pkg/worker"
+	"github.com/Windscribe/fider/app"
+	"github.com/Windscribe/fider/app/models"
+	"github.com/Windscribe/fider/app/pkg/web"
+	"github.com/Windscribe/fider/app/pkg/worker"
 )
 
 // Worker is fake wrapper for background worker

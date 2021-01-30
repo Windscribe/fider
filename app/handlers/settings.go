@@ -3,16 +3,16 @@ package handlers
 import (
 	"time"
 
-	"github.com/getfider/fider/app/models/enum"
-	"github.com/getfider/fider/app/models/query"
+	"github.com/Windscribe/fider/app/models/enum"
+	"github.com/Windscribe/fider/app/models/query"
 
-	"github.com/getfider/fider/app/models/cmd"
-	"github.com/getfider/fider/app/pkg/bus"
+	"github.com/Windscribe/fider/app/models/cmd"
+	"github.com/Windscribe/fider/app/pkg/bus"
 
-	"github.com/getfider/fider/app/tasks"
+	"github.com/Windscribe/fider/app/tasks"
 
-	"github.com/getfider/fider/app/actions"
-	"github.com/getfider/fider/app/pkg/web"
+	"github.com/Windscribe/fider/app/actions"
+	"github.com/Windscribe/fider/app/pkg/web"
 )
 
 // ChangeUserEmail register the intent of changing user email

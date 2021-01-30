@@ -5,16 +5,16 @@ import (
 	"testing"
 	"time"
 
-	"github.com/getfider/fider/app/models/enum"
-	"github.com/getfider/fider/app/models/query"
+	"github.com/Windscribe/fider/app/models/enum"
+	"github.com/Windscribe/fider/app/models/query"
 
-	"github.com/getfider/fider/app"
-	"github.com/getfider/fider/app/models"
-	"github.com/getfider/fider/app/models/cmd"
-	. "github.com/getfider/fider/app/pkg/assert"
-	"github.com/getfider/fider/app/pkg/bus"
-	"github.com/getfider/fider/app/pkg/env"
-	"github.com/getfider/fider/app/pkg/errors"
+	"github.com/Windscribe/fider/app"
+	"github.com/Windscribe/fider/app/models"
+	"github.com/Windscribe/fider/app/models/cmd"
+	. "github.com/Windscribe/fider/app/pkg/assert"
+	"github.com/Windscribe/fider/app/pkg/bus"
+	"github.com/Windscribe/fider/app/pkg/env"
+	"github.com/Windscribe/fider/app/pkg/errors"
 )
 
 func TestPostStorage_GetAll(t *testing.T) {

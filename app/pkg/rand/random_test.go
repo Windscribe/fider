@@ -3,8 +3,8 @@ package rand_test
 import (
 	"testing"
 
-	. "github.com/getfider/fider/app/pkg/assert"
-	"github.com/getfider/fider/app/pkg/rand"
+	. "github.com/Windscribe/fider/app/pkg/assert"
+	"github.com/Windscribe/fider/app/pkg/rand"
 )
 
 func TestRandomString(t *testing.T) {

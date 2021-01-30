@@ -4,10 +4,10 @@ import (
 	"context"
 	"testing"
 
-	"github.com/getfider/fider/app/actions"
-	"github.com/getfider/fider/app/models"
-	"github.com/getfider/fider/app/models/enum"
-	. "github.com/getfider/fider/app/pkg/assert"
+	"github.com/Windscribe/fider/app/actions"
+	"github.com/Windscribe/fider/app/models"
+	"github.com/Windscribe/fider/app/models/enum"
+	. "github.com/Windscribe/fider/app/pkg/assert"
 )
 
 func TestInvalidUserNames(t *testing.T) {

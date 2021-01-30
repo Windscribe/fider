@@ -3,11 +3,11 @@ package handlers
 import (
 	"fmt"
 
-	"github.com/getfider/fider/app/models/query"
-	"github.com/getfider/fider/app/pkg/bus"
-	"github.com/getfider/fider/app/pkg/csv"
-	"github.com/getfider/fider/app/pkg/markdown"
-	"github.com/getfider/fider/app/pkg/web"
+	"github.com/Windscribe/fider/app/models/query"
+	"github.com/Windscribe/fider/app/pkg/bus"
+	"github.com/Windscribe/fider/app/pkg/csv"
+	"github.com/Windscribe/fider/app/pkg/markdown"
+	"github.com/Windscribe/fider/app/pkg/web"
 )
 
 // Index is the default home page

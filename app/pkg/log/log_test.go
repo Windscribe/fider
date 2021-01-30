@@ -4,9 +4,9 @@ import (
 	"context"
 	"testing"
 
-	"github.com/getfider/fider/app/models/dto"
-	. "github.com/getfider/fider/app/pkg/assert"
-	"github.com/getfider/fider/app/pkg/log"
+	"github.com/Windscribe/fider/app/models/dto"
+	. "github.com/Windscribe/fider/app/pkg/assert"
+	"github.com/Windscribe/fider/app/pkg/log"
 )
 
 func TestLog_WithProperty(t *testing.T) {

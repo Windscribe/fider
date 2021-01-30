@@ -3,7 +3,7 @@ package smtp
 import (
 	gosmtp "net/smtp"
 
-	"github.com/getfider/fider/app/pkg/errors"
+	"github.com/Windscribe/fider/app/pkg/errors"
 )
 
 type agnosticAuth struct {

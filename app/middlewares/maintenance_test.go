@@ -5,11 +5,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/getfider/fider/app/middlewares"
-	. "github.com/getfider/fider/app/pkg/assert"
-	"github.com/getfider/fider/app/pkg/env"
-	"github.com/getfider/fider/app/pkg/mock"
-	"github.com/getfider/fider/app/pkg/web"
+	"github.com/Windscribe/fider/app/middlewares"
+	. "github.com/Windscribe/fider/app/pkg/assert"
+	"github.com/Windscribe/fider/app/pkg/env"
+	"github.com/Windscribe/fider/app/pkg/mock"
+	"github.com/Windscribe/fider/app/pkg/web"
 )
 
 func TestMaintenance_Disabled(t *testing.T) {

@@ -6,8 +6,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/getfider/fider/app/models/enum"
-	"github.com/getfider/fider/app/pkg/web"
+	"github.com/Windscribe/fider/app/models/enum"
+	"github.com/Windscribe/fider/app/pkg/web"
 )
 
 var onlyalphanumeric = regexp.MustCompile("[^a-zA-Z0-9 |]+")

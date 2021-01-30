@@ -4,11 +4,11 @@ import (
 	"context"
 	"testing"
 
-	"github.com/getfider/fider/app"
+	"github.com/Windscribe/fider/app"
 
-	"github.com/getfider/fider/app/models"
-	. "github.com/getfider/fider/app/pkg/assert"
-	"github.com/getfider/fider/app/services/sqlstore/postgres"
+	"github.com/Windscribe/fider/app/models"
+	. "github.com/Windscribe/fider/app/pkg/assert"
+	"github.com/Windscribe/fider/app/services/sqlstore/postgres"
 )
 
 func TestToTSQuery(t *testing.T) {

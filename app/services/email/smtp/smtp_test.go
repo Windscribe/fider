@@ -6,15 +6,15 @@ import (
 	"regexp"
 	"testing"
 
-	"github.com/getfider/fider/app"
+	"github.com/Windscribe/fider/app"
 
-	"github.com/getfider/fider/app/models"
-	"github.com/getfider/fider/app/models/cmd"
-	"github.com/getfider/fider/app/models/dto"
-	. "github.com/getfider/fider/app/pkg/assert"
-	"github.com/getfider/fider/app/pkg/bus"
-	"github.com/getfider/fider/app/services/email"
-	"github.com/getfider/fider/app/services/email/smtp"
+	"github.com/Windscribe/fider/app/models"
+	"github.com/Windscribe/fider/app/models/cmd"
+	"github.com/Windscribe/fider/app/models/dto"
+	. "github.com/Windscribe/fider/app/pkg/assert"
+	"github.com/Windscribe/fider/app/pkg/bus"
+	"github.com/Windscribe/fider/app/services/email"
+	"github.com/Windscribe/fider/app/services/email/smtp"
 )
 
 type request struct {

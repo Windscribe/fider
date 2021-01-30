@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/getfider/fider/app/pkg/web"
+	"github.com/Windscribe/fider/app/pkg/web"
 )
 
 type gzipResponseWriter struct {

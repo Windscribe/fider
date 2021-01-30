@@ -6,9 +6,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/getfider/fider/app/models/dto"
-	"github.com/getfider/fider/app/pkg/log"
-	"github.com/getfider/fider/app/pkg/rand"
+	"github.com/Windscribe/fider/app/models/dto"
+	"github.com/Windscribe/fider/app/pkg/log"
+	"github.com/Windscribe/fider/app/pkg/rand"
 )
 
 //MiddlewareFunc is worker middleware

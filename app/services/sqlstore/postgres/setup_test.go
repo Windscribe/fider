@@ -6,17 +6,17 @@ import (
 	"os"
 	"testing"
 
-	"github.com/getfider/fider/app/models/query"
-	"github.com/getfider/fider/app/services/sqlstore/postgres"
+	"github.com/Windscribe/fider/app/models/query"
+	"github.com/Windscribe/fider/app/services/sqlstore/postgres"
 
-	"github.com/getfider/fider/app/pkg/bus"
+	"github.com/Windscribe/fider/app/pkg/bus"
 
-	"github.com/getfider/fider/app"
+	"github.com/Windscribe/fider/app"
 
-	"github.com/getfider/fider/app/models"
-	. "github.com/getfider/fider/app/pkg/assert"
-	"github.com/getfider/fider/app/pkg/dbx"
-	"github.com/getfider/fider/app/pkg/web"
+	"github.com/Windscribe/fider/app/models"
+	. "github.com/Windscribe/fider/app/pkg/assert"
+	"github.com/Windscribe/fider/app/pkg/dbx"
+	"github.com/Windscribe/fider/app/pkg/web"
 )
 
 var trx *dbx.Trx

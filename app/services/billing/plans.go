@@ -7,9 +7,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/getfider/fider/app/models/dto"
-	"github.com/getfider/fider/app/models/query"
-	"github.com/getfider/fider/app/pkg/errors"
+	"github.com/Windscribe/fider/app/models/dto"
+	"github.com/Windscribe/fider/app/models/query"
+	"github.com/Windscribe/fider/app/pkg/errors"
 	"github.com/goenning/vat"
 	"github.com/stripe/stripe-go"
 )

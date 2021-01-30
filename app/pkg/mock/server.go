@@ -8,11 +8,11 @@ import (
 	"net/http/httptest"
 	"net/url"
 
-	"github.com/getfider/fider/app/models"
-	"github.com/getfider/fider/app/models/query"
-	"github.com/getfider/fider/app/pkg/bus"
-	"github.com/getfider/fider/app/pkg/jsonq"
-	"github.com/getfider/fider/app/pkg/web"
+	"github.com/Windscribe/fider/app/models"
+	"github.com/Windscribe/fider/app/models/query"
+	"github.com/Windscribe/fider/app/pkg/bus"
+	"github.com/Windscribe/fider/app/pkg/jsonq"
+	"github.com/Windscribe/fider/app/pkg/web"
 )
 
 // Server is a HTTP server wrapper for testing purpose

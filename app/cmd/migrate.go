@@ -3,12 +3,12 @@ package cmd
 import (
 	"context"
 
-	"github.com/getfider/fider/app/models/dto"
-	"github.com/getfider/fider/app/pkg/bus"
-	"github.com/getfider/fider/app/pkg/dbx"
-	"github.com/getfider/fider/app/pkg/log"
-	"github.com/getfider/fider/app/pkg/rand"
-	_ "github.com/getfider/fider/app/services/log/console"
+	"github.com/Windscribe/fider/app/models/dto"
+	"github.com/Windscribe/fider/app/pkg/bus"
+	"github.com/Windscribe/fider/app/pkg/dbx"
+	"github.com/Windscribe/fider/app/pkg/log"
+	"github.com/Windscribe/fider/app/pkg/rand"
+	_ "github.com/Windscribe/fider/app/services/log/console"
 )
 
 // RunMigrate run all pending migrations on current DATABASE_URL

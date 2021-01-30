@@ -3,14 +3,14 @@ package middlewares
 import (
 	"time"
 
-	"github.com/getfider/fider/app/pkg/dbx"
+	"github.com/Windscribe/fider/app/pkg/dbx"
 
-	"github.com/getfider/fider/app"
-	"github.com/getfider/fider/app/models/dto"
-	"github.com/getfider/fider/app/pkg/errors"
-	"github.com/getfider/fider/app/pkg/log"
-	"github.com/getfider/fider/app/pkg/web"
-	"github.com/getfider/fider/app/pkg/worker"
+	"github.com/Windscribe/fider/app"
+	"github.com/Windscribe/fider/app/models/dto"
+	"github.com/Windscribe/fider/app/pkg/errors"
+	"github.com/Windscribe/fider/app/pkg/log"
+	"github.com/Windscribe/fider/app/pkg/web"
+	"github.com/Windscribe/fider/app/pkg/worker"
 )
 
 //WorkerSetup current context with some services

@@ -1,6 +1,6 @@
 package cmd
 
-import "github.com/getfider/fider/app/models/dto"
+import "github.com/Windscribe/fider/app/models/dto"
 
 type LogDebug struct {
 	Message string

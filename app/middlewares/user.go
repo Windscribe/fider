@@ -5,19 +5,19 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/getfider/fider/app/models/enum"
-	"github.com/getfider/fider/app/models/query"
-	"github.com/getfider/fider/app/pkg/bus"
+	"github.com/Windscribe/fider/app/models/enum"
+	"github.com/Windscribe/fider/app/models/query"
+	"github.com/Windscribe/fider/app/pkg/bus"
 
-	"github.com/getfider/fider/app/pkg/validate"
+	"github.com/Windscribe/fider/app/pkg/validate"
 
-	"github.com/getfider/fider/app/models"
+	"github.com/Windscribe/fider/app/models"
 
-	"github.com/getfider/fider/app"
-	"github.com/getfider/fider/app/pkg/errors"
-	"github.com/getfider/fider/app/pkg/jwt"
-	"github.com/getfider/fider/app/pkg/web"
-	webutil "github.com/getfider/fider/app/pkg/web/util"
+	"github.com/Windscribe/fider/app"
+	"github.com/Windscribe/fider/app/pkg/errors"
+	"github.com/Windscribe/fider/app/pkg/jwt"
+	"github.com/Windscribe/fider/app/pkg/web"
+	webutil "github.com/Windscribe/fider/app/pkg/web/util"
 )
 
 // User gets JWT Auth token from cookie and insert into context

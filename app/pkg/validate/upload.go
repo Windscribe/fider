@@ -3,7 +3,7 @@ package validate
 import (
 	"fmt"
 
-	"github.com/getfider/fider/app/models"
+	"github.com/Windscribe/fider/app/models"
 	"github.com/goenning/imagic"
 )
 

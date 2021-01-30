@@ -9,18 +9,18 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/getfider/fider/app/models/dto"
+	"github.com/Windscribe/fider/app/models/dto"
 
-	"github.com/getfider/fider/app/models/query"
-	"github.com/getfider/fider/app/pkg/bus"
+	"github.com/Windscribe/fider/app/models/query"
+	"github.com/Windscribe/fider/app/pkg/bus"
 
 	"io/ioutil"
 
-	"github.com/getfider/fider/app/models"
-	"github.com/getfider/fider/app/pkg/crypto"
-	"github.com/getfider/fider/app/pkg/env"
-	"github.com/getfider/fider/app/pkg/errors"
-	"github.com/getfider/fider/app/pkg/markdown"
+	"github.com/Windscribe/fider/app/models"
+	"github.com/Windscribe/fider/app/pkg/crypto"
+	"github.com/Windscribe/fider/app/pkg/env"
+	"github.com/Windscribe/fider/app/pkg/errors"
+	"github.com/Windscribe/fider/app/pkg/markdown"
 )
 
 var templateFunctions = template.FuncMap{

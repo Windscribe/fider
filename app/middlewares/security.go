@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/getfider/fider/app/pkg/env"
-	"github.com/getfider/fider/app/pkg/web"
+	"github.com/Windscribe/fider/app/pkg/env"
+	"github.com/Windscribe/fider/app/pkg/web"
 )
 
 // Secure adds web security related Http Headers to response

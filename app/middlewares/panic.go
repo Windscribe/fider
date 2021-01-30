@@ -4,10 +4,10 @@ import (
 	"io"
 	"time"
 
-	"github.com/getfider/fider/app/models/dto"
-	"github.com/getfider/fider/app/pkg/errors"
-	"github.com/getfider/fider/app/pkg/log"
-	"github.com/getfider/fider/app/pkg/web"
+	"github.com/Windscribe/fider/app/models/dto"
+	"github.com/Windscribe/fider/app/pkg/errors"
+	"github.com/Windscribe/fider/app/pkg/log"
+	"github.com/Windscribe/fider/app/pkg/web"
 )
 
 func CatchPanic() web.MiddlewareFunc {
