@@ -68,8 +68,10 @@ func PostDetails() web.HandlerFunc {
 		getComments := &query.GetCommentsByPost{Post: getPost.Result}
 		getAllTags := &query.GetAllTags{}
 		listVotes := &query.ListPostVotes{PostID: getPost.Result.ID, Limit: 6}
-		getAttachments := &query.GetAttachments{Post: getPost.Result}
-		if err := bus.Dispatch(c, getAllTags, getComments, listVotes, isSubscribed, getAttachments); err != nil {
+		// removing attachements to see if this fixes the crashing issue
+		//getAttachments := &query.GetAttachments{Post: getPost.Result}
+		//if err := bus.Dispatch(c, getAllTags, getComments, listVotes, isSubscribed, getAttachments); err != nil {
+		if err := bus.Dispatch(c, getAllTags, getComments, listVotes, isSubscribed); err != nil {
 			return c.Failure(err)
 		}
 
@@ -78,12 +80,13 @@ func PostDetails() web.HandlerFunc {
 			Description: markdown.PlainText(getPost.Result.Description),
 			ChunkName:   "ShowPost.page",
 			Data: web.Map{
-				"comments":    getComments.Result,
-				"subscribed":  isSubscribed.Result,
-				"post":        getPost.Result,
-				"tags":        getAllTags.Result,
-				"votes":       listVotes.Result,
-				"attachments": getAttachments.Result,
+				"comments":   getComments.Result,
+				"subscribed": isSubscribed.Result,
+				"post":       getPost.Result,
+				"tags":       getAllTags.Result,
+				"votes":      listVotes.Result,
+				//"attachments": getAttachments.Result,
+				"attachments": []string{},
 			},
 		})
 	}
